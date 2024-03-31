@@ -1,5 +1,5 @@
-####  CNN_for_NCM-composition-and-state-prediction:
-### Title
+###  CNN_for_NCM-composition-and-state-prediction:
+### Title:
 Composition and state prediction of lithium-ion cathode via convolutional neural network trained on scanning electron microscopy images.
 
 
