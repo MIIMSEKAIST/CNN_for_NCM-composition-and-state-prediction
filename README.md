@@ -12,22 +12,22 @@ High-throughput materials research is strongly required to accelerate the develo
 
 
 
-### Instruction
+### Procedure
 1. Image Augmentation: aug_img.py
-    Description: 
-    parser = argparse.ArgumentParser(description='Image augmentation with desginated size and ratio')
-    parser.add_argument('path', help='folder path', type=str, default='source')
-    parser.add_argument('size', help='Size of the generated dataset', type=int)
-    parser.add_argument('-p', '--pixel', help='Size of the generated image', default=True)
-    parser.add_argument('-t', '--test', help='Ratio of test images', type=int, default=10)
-    parser.add_argument('-r', '--ratio', help='Ratio of validation images', type=int, default=20)
-    parser.add_argument('-n', '--name', help='Dataset name', default=None)
-    parser.add_argument('--seed', default=1345879)
-    parser.add_argument('-v', '--verbose', default=True)
-    args = parser.parse_args()
-   
-   Example line:
-   python aug_img.py source 1000 –p 224 –t 10 –r 20 –n example
+    * Description:
+        - parser = argparse.ArgumentParser(description='Image augmentation with desginated size and ratio')
+        - parser.add_argument('path', help='folder path', type=str, default='source')
+        - parser.add_argument('size', help='Size of the generated dataset', type=int)
+        - parser.add_argument('-p', '--pixel', help='Size of the generated image', default=True)
+        - parser.add_argument('-t', '--test', help='Ratio of test images', type=int, default=10)
+        - parser.add_argument('-r', '--ratio', help='Ratio of validation images', type=int, default=20)
+        - parser.add_argument('-n', '--name', help='Dataset name', default=None)
+        - parser.add_argument('--seed', default=1345879)
+        - parser.add_argument('-v', '--verbose', default=True)
+        -  args = parser.parse_args()
+    * Example line:
+        - python aug_img.py source 1000 –p 224 –t 10 –r 20 –n example
+          
 
 
 3. 
