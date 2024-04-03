@@ -1,0 +1,86 @@
+[Image Info]
+Model : SNE-4500M Plus
+Date : 2019-12-03 오후 8:24:51
+Time : 20:24:51.6351711
+File Name : D:\DATA\OJM\191203_ncm333_E1_100cycles\ETRI_ 20 kV_SE_HighVac_x500 __585.jpg
+Discription : Tabletop SEM
+Acceleated Voltage :  20 kV
+Magnification : x500 
+Emission Current : 110uA
+Detector Mode : SED
+Vacuum Mode : High Vacuum
+Scan Speed : 
+[Running Info]
+Focus : 2253
+Magnification : x500 
+Scan Rotaion : 0°
+[   - Image Process]
+Brightness : 105
+Contrast : 25
+[   - Detector]
+Detector : 105
+Collector : 139
+[   - Spot Size]
+Spot Size : 107
+[   - Working Distance]
+Default Working Distance : 0mm
+Working Distance : 5mm
+[   - Stig]
+Stig X : -2
+Stig Y : -2
+[   - Gun Align]
+GA X : -5
+GA Y : -5
+[   - Beam Shift]
+BS X : 0
+BS Y : 0
+[Config Info]
+Alias :  20 kV
+[   - Accelerated Voltage]
+Anode : 167
+Filament : 168
+Filament Current: 5345.88235294118
+Grid : 129
+[   - CL]
+CL1 Val : 107
+CL1 Max : 160
+CL1 Min : 50
+CL2 Val : 250
+CL2 Max : 255
+CL2 Min : 0
+[   - Focus]
+OL1 Val : 2253
+OL1 Max : 4095
+OL1 Min : 0
+OL2 Val : 1342
+OL2 Max : 2678
+OL2 Min : 0
+[   - Stig]
+XAB : 30
+XCD : 40
+XFreq : 0
+XAmpl : 0
+XWobble : False
+YAB : -25
+YCD : 25
+YFreq : 0
+YAmpl : 0
+YWobble : False
+[   - Rotation]
+Scan Rotation : -68250
+BeamShift Rotation : 1084
+[Active Scan]
+Channel : 0
+Bipolra : True
+Sampling Speed : 5.42534722222222
+Image Level : 10,-10
+Sample Average : 1
+Scan Signal Level : 10,-10
+Frame Average : 1
+Blur Level : 0
+Image Size : 480,480
+Paint Area : 1,0.75
+ImmediatePaint : True
+Frame Size : 480,480
+Image Area : 0,0,1,0.75
+Pixel Size : 0.7
