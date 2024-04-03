@@ -13,7 +13,8 @@ High-throughput materials research is strongly required to accelerate the develo
 
 
 ### Procedure
-1. Image Augmentation: aug_img.py
+1. Donwload the dataset, then unzipped, rename the parent folder with "source" , and put the folder in the same directory of the python codes in this repository
+2. Image Augmentation: aug_img.py
     * Description:
         - parser = argparse.ArgumentParser(description='Image augmentation with desginated size and ratio')
         - parser.add_argument('path', help='folder path', type=str, default='source')
@@ -28,13 +29,13 @@ High-throughput materials research is strongly required to accelerate the develo
     * Example line:
         - python aug_img.py source 1000 –p 224 –t 10 –r 20 –n example
           
-2. Set configurations: config.py
+3. Set configurations: config.py
    * You can add new configuration for training/test environment
    * If you want to add different optimizer / loss function, you can modify loss_fn / optimize_fn in utils.py
-3. Train: train.py
+4. Train: train.py
    * Change dataset_name and version (designated version should be in config.py)
    * Run the file (python train.py)
-4. Test: test.py
+5. Test: test.py
    * Change dataset_name and version (designated version should be in config.py)
    * Run the file (python test.py)
    * This will generate prediction results with each single entity as a csv file
