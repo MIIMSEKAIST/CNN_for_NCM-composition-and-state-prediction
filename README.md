@@ -28,8 +28,31 @@ High-throughput materials research is strongly required to accelerate the develo
     * Example line:
         - python aug_img.py source 1000 –p 224 –t 10 –r 20 –n example
           
+2. Set configurations: config.py
+   * You can add new configuration for training/test environment
+   * If you want to add different optimizer / loss function, you can modify loss_fn / optimize_fn in utils.py
+3. Train: train.py
+   * Change dataset_name and version (designated version should be in config.py)
+   * Run the file (python train.py)
+4. Test: test.py
+   * Change dataset_name and version (designated version should be in config.py)
+   * Run the file (python test.py)
+   * This will generate prediction results with each single entity as a csv file
+
+### Customized dataset
+1. This file includes dataset classes for train, validation, and testing.
+2. If you want to have idea, you can refer to the PyTorch Dataset class documentations.
 
 
-3. 
+
+
+
+
+
+
+6. 
+
+
+
  
 
