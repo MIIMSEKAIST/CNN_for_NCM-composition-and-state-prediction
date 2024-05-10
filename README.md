@@ -2,6 +2,7 @@
 
 ### Title:
 Composition and state prediction of lithium-ion cathode via convolutional neural network trained on scanning electron microscopy images
+### DOI : https://doi.org/10.1038/s41524-024-01279-6
 
 
 ### Abstract:
@@ -51,7 +52,7 @@ High-throughput materials research is strongly required to accelerate the develo
 
 
 
-6. 
+
 
 
 
